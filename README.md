@@ -87,7 +87,7 @@ legal-expert-assistant/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -165,7 +165,7 @@ This provides:
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 | Metric | Description | Target |
 |--------|-------------|--------|
@@ -275,7 +275,6 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 <div align="center">
 
-**Built with ❤️ for the legal community**
 
 *Disclaimer: This tool is for informational purposes only and does not constitute legal advice.*
 
