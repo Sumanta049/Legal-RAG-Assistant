@@ -14,11 +14,11 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 **Legal Expert Assistant** is a production-ready RAG (Retrieval-Augmented Generation) system that provides accurate, context-aware answers to legal questions based on Indian law. The system leverages vector embeddings and semantic search to retrieve relevant legal provisions from a curated knowledge base, then uses a large language model to generate comprehensive, well-cited responses.
 
-### 🎯 Key Features
+### Key Features
 
 - **Multi-Source Legal Knowledge Base**: Includes the Indian Penal Code (IPC), Bharatiya Nyaya Sanhita 2023 (BNS), and the Constitution of India
 - **Semantic Search**: Uses HuggingFace embeddings (all-MiniLM-L6-v2) with ChromaDB for efficient vector similarity search
@@ -28,7 +28,7 @@
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -63,7 +63,7 @@
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 legal-expert-assistant/
@@ -134,7 +134,7 @@ The web interface will open automatically at `http://localhost:7860`
 
 ---
 
-## 💡 Usage
+## Usage
 
 ### Chat Interface
 
@@ -178,7 +178,7 @@ This provides:
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 ### Model Configuration
 
@@ -203,7 +203,7 @@ text_splitter = RecursiveCharacterTextSplitter(
 
 ---
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### RAG Pipeline
 
@@ -223,7 +223,7 @@ The system uses LLM-as-Judge methodology with structured outputs (Pydantic model
 
 ---
 
-## 📚 Knowledge Base
+## Knowledge Base
 
 | Document | Description | Coverage |
 |----------|-------------|----------|
@@ -233,7 +233,7 @@ The system uses LLM-as-Judge methodology with structured outputs (Pydantic model
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 # Run evaluation on a specific test case
@@ -245,7 +245,7 @@ python evaluator.py
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -257,13 +257,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [LangChain](https://langchain.com/) for the RAG framework
 - [Ollama](https://ollama.ai/) for local LLM inference
